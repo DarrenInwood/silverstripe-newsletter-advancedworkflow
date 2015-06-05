@@ -1,0 +1,25 @@
+{
+	"name": "ajshort/silverstripe-newsletter-advancedworkflow",
+	"description": "SilverStripe Newsletter Advanced Workflow module",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "newsletter", "workflow", "advanced workflow"],
+	"license": "SilverStripe Newsletter Workflow Module License",
+	"authors": [
+		{
+			"name": "Andrew Short",
+			"email": "andrewjshort@gmail.com"
+		}
+	],
+	"require": {
+		"silverstripe/cms": ">=3.1",
+		"silverstripe/framework": ">=3.1",
+		"silverstripe/advancedworkflow": ">=3.2.0",
+		"silverstripe/newsletter": ">=0.6.1"
+	},
+	"extra": {
+		"installer-name": "newsletter-advancedworkflow",
+		"branch-alias": {
+			"dev-master": "1.0.x-dev"
+		}
+	}
+}
